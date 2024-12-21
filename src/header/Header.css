@@ -1,0 +1,129 @@
+@import "../colorsVariables.css";
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.navbar_container {
+  background-color: var(--header_background);
+  padding: 17px 80px 17px 50px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-brand {
+  flex: 1;
+}
+
+.brand-logo {
+  max-width: 100%;
+}
+
+.navbar-brand img {
+  width: 40px;
+  border: 1px solid black;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links .nav-link {
+  color: var(--title_description_text);
+  font-size: 15px;
+  font-weight: bolder;
+  text-decoration: none;
+  margin-left: 50px;
+  letter-spacing: 1.2px;
+}
+
+.navbar-links .nav-link:hover {
+  color: var(--button_color);
+  text-transform: uppercase;
+}
+.navbar-brand {
+  display: flex;
+  gap: 15px;
+}
+
+.profile_name {
+  color: var(--title_description_text);
+  font-size: 16px;
+  font-weight: bolder;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.profile_name:hover {
+  color: var(--button_color);
+  text-transform: uppercase;
+}
+
+.navbar-call {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+}
+
+.call-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.call-icon {
+  margin-right: 5px;
+}
+
+/* For the hamburger menu icon */
+.menu-toggle {
+  display: none;
+  font-size: 30px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: row;
+  }
+
+  .navbar-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    background-color: #eee7e7;
+    gap: 10px;
+    position: absolute;
+    top: 67.9375px;
+    left: 0;
+    padding: 15px;
+  }
+
+  .navbar-links.active {
+    display: flex;
+  }
+
+  .navbar-call {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+}
