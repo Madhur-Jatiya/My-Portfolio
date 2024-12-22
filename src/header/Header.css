@@ -48,4 +48,5 @@
 .navbar_items .dropdown-toggle[aria-expanded="true"] {
   color: var(--button_color) !important;
   background-color: var(--header_background) !important;
+  border: 1px solid var(--button_color) !important;
 }
