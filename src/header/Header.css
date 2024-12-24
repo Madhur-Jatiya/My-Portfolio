@@ -50,6 +50,41 @@
   border: 1px solid var(--button_color) !important;
 }
 
+@media (max-width: 1024px) {
+  .profile_name img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .profile_name span {
+    font-size: 20px;
+    margin-left: 10px;
+  }
+
+  .navbar_items .nav-link {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    font-size: 1rem;
+  }
+
+  .navbar_items .dropdown-toggle {
+    font-size: 1rem;
+    padding: 0.3rem;
+    margin-top: 0.6rem;
+    margin-left: 1.5rem;
+  }
+
+  .dropdown-item {
+    font-size: 1.2rem;
+    padding-left: 1rem;
+  }
+
+  .navbar-nav .dropdown-menu {
+    width: 70px !important;
+    padding-left: 0.5rem;
+  }
+}
+
 @media (max-width: 768px) {
   .profile_name img {
     margin: 1rem;
@@ -72,17 +107,55 @@
     font-size: 1.5rem;
     padding: 0.3rem;
     margin-top: 0.6rem;
-    margin-left: 2rem;
+    margin-left: 1.5rem;
   }
 
   .dropdown-item {
     font-size: 1.5rem;
-    margin-left: 1rem;
+    margin: 0;
+    padding: 0;
   }
 
   .navbar-nav .dropdown-menu {
     width: 70px !important;
     margin-left: 2rem;
+  }
+}
+
+@media (max-width: 540px) {
+  .profile_name img {
+    margin: 0;
+    padding: 0;
+  }
+
+  .profile_name span {
+    font-size: 16px;
+    margin-left: 10px;
+  }
+
+  .navbar_items .nav-link {
+    padding-top: 1rem;
+    padding-left: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  .navbar_items .dropdown-toggle {
+    font-size: 0.8rem;
+    padding: 0.3rem;
+    margin-top: 0.6rem;
+    margin-left: 0.3rem;
+  }
+
+  .dropdown-item {
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+  }
+
+  .navbar-nav .dropdown-menu {
+    width: 70px !important;
+    margin-left: 0;
+    padding: 0;
   }
 }
 
@@ -117,5 +190,13 @@
 
   .navbar-nav .dropdown-menu {
     width: 70px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .dropdown-item {
+    font-size: 1rem;
+    padding: 0;
+    margin-left: 0;
   }
 }
