@@ -39,10 +39,7 @@
   justify-content: center;
 }
 
-.social_icon_box_con {
-  font-size: 1.8rem;
-  margin-top: -5px;
-}
+
 
 .coding {
   display: flex;
@@ -257,19 +254,8 @@
     padding: 0 0.5rem 0 0.5rem;
   }
 
-  .social_icon_box_con {
-    font-size: 1.5rem;
-    padding: 0;
-  }
-
-  .social_icon_con {
-    font-size: 2rem;
-    padding: 0;
-  }
-
-  .social_icon_box_cons {
-    font-size: 2rem;
-    padding: 0;
+  .coding_platform {
+    font-size: 1.8rem;
   }
 
   .copy_right p {
