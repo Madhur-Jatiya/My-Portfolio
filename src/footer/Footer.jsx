@@ -1,8 +1,14 @@
 import React from "react";
 import { Row, Col, Container } from "react-bootstrap";
 import "./Footer.css";
-import { TiSocialLinkedin, TiSocialTwitter } from "react-icons/ti";
-import { FaGithub, FaInstagram, FaFacebookSquare, FaHackerrank } from "react-icons/fa";
+import {
+  FaGithub,
+  FaInstagram,
+  FaFacebookSquare,
+  FaHackerrank,
+  FaLinkedinIn,
+  FaTwitter,
+} from "react-icons/fa";
 import { SiGeeksforgeeks, SiLeetcode } from "react-icons/si";
 
 const Footer = () => {
@@ -10,7 +16,6 @@ const Footer = () => {
     <div className="footer_main">
       <Container>
         <Row>
-
           <Col lg={6}>
             <div className="footer_container">
               <h1>Madhur Jatiya</h1>
@@ -29,47 +34,37 @@ const Footer = () => {
             </div>
 
             <div className="social_icon">
-
               <div className="social_icon_box">
                 <FaGithub />
               </div>
-
-              <div className="social_icon_con">
-                <TiSocialLinkedin />
+              <div className="social_icon_box">
+                <FaLinkedinIn />
               </div>
-
-              <div className="social_icon_box_cons">
-                <TiSocialTwitter />
+              <div className="social_icon_box">
+                <FaTwitter />
               </div>
-
               <div className="social_icon_box">
                 <FaInstagram />
               </div>
-
               <div className="social_icon_box">
                 <FaFacebookSquare />
               </div>
-
             </div>
 
             <div className="coding">
-
               <div className="coding_platform">
                 <FaHackerrank />
               </div>
-
               <div className="coding_platform">
                 <SiLeetcode />
               </div>
-
               <div className="coding_platform">
                 <SiGeeksforgeeks />
               </div>
-
             </div>
           </Col>
-
         </Row>
+
         <hr />
 
         <div className="copy_right">
@@ -77,7 +72,6 @@ const Footer = () => {
             Copyright 2024. Made by <a href="/">Madhur Jatiya</a>
           </p>
         </div>
-        
       </Container>
     </div>
   );
