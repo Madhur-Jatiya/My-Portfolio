@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import Project_img from "../../public/assets/project.jpeg";
+import Project_img from "../../assets/project.jpeg";
 import "./project.css";
 
 const projectData = [
