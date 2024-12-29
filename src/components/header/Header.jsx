@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Header.css";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import profile_img from "../../public/assets/profile.png";
+import profile_img from "../../assets/profile.png";
 import { Dropdown, DropdownButton } from "react-bootstrap";
 import { IoLanguage } from "react-icons/io5";
 
