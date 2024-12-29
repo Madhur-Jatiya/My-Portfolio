@@ -16,7 +16,7 @@ const Footer = () => {
     <div className="footer_main">
       <Container>
         <Row>
-          <Col lg={6}>
+          <Col lg={7}>
             <div className="footer_container">
               <h1>Madhur Jatiya</h1>
               <p>
@@ -28,37 +28,37 @@ const Footer = () => {
             </div>
           </Col>
 
-          <Col lg={6}>
+          <Col lg={5}>
             <div className="footer_box">
               <h1>Social</h1>
             </div>
 
-            <div className="social_icon">
-              <div className="social_icon_box">
+            <div className="social_media_icons">
+              <div className="social_media_icon">
                 <FaGithub />
               </div>
-              <div className="social_icon_box">
+              <div className="social_media_icon">
                 <FaLinkedinIn />
               </div>
-              <div className="social_icon_box">
+              <div className="social_media_icon">
                 <FaTwitter />
               </div>
-              <div className="social_icon_box">
+              <div className="social_media_icon">
                 <FaInstagram />
               </div>
-              <div className="social_icon_box">
+              <div className="social_media_icon">
                 <FaFacebookSquare />
               </div>
             </div>
 
-            <div className="coding">
-              <div className="coding_platform">
+            <div className="coding_platform_icons">
+              <div className="coding_platform_icon">
                 <FaHackerrank />
               </div>
-              <div className="coding_platform">
+              <div className="coding_platform_icon">
                 <SiLeetcode />
               </div>
-              <div className="coding_platform">
+              <div className="coding_platform_icon">
                 <SiGeeksforgeeks />
               </div>
             </div>

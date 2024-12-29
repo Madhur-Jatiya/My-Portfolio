@@ -50,21 +50,16 @@
   border: 1px solid var(--button_color) !important;
 }
 
-@media (max-width: 1024px) {
-  .profile_name img {
-    margin: 0;
-    padding: 0;
-  }
-
-  .profile_name span {
-    font-size: 20px;
-    margin-left: 10px;
-  }
+@media (max-width: 991px) {
 
   .navbar_items .nav-link {
     padding-top: 1rem;
     padding-left: 2rem;
     font-size: 1rem;
+  }
+
+  .navbar-toggler {
+    margin-right: 2rem !important;
   }
 
   .navbar_items .dropdown-toggle {
@@ -87,63 +82,30 @@
 
 @media (max-width: 768px) {
   .profile_name img {
-    margin: 1rem;
-    width: 70px;
-    height: 70px;
+    margin: 0 1rem 0 1.5rem;
   }
 
   .profile_name span {
-    font-size: 24px;
-    margin-left: 1rem;
-  }
-
-  .navbar_items .nav-link {
-    padding-top: 1rem;
-    padding-left: 2rem;
-    font-size: 1.3rem;
-  }
-
-  .navbar_items .dropdown-toggle {
-    font-size: 1.5rem;
-    padding: 0.3rem;
-    margin-top: 0.6rem;
-    margin-left: 1.5rem;
-  }
-
-  .dropdown-item {
-    font-size: 1.5rem;
-    margin: 0;
-    padding: 0;
-  }
-
-  .navbar-nav .dropdown-menu {
-    width: 70px !important;
-    margin-left: 2rem;
+    font-size: 1.1rem;
+    margin-left: 5px;
   }
 }
 
 @media (max-width: 540px) {
-  .profile_name img {
-    margin: 0;
-    padding: 0;
-  }
-
-  .profile_name span {
-    font-size: 16px;
-    margin-left: 10px;
-  }
 
   .navbar_items .nav-link {
-    padding-top: 1rem;
-    padding-left: 0.5rem;
-    font-size: 0.8rem;
+    padding-left: 1.5rem;
+  }
+
+  .navbar-toggler {
+    margin-right: 1.5rem !important;
+    font-size: 1rem !important;
   }
 
   .navbar_items .dropdown-toggle {
     font-size: 0.8rem;
     padding: 0.3rem;
-    margin-top: 0.6rem;
-    margin-left: 0.3rem;
+    margin: 0.5rem 0 1rem 1rem;
   }
 
   .dropdown-item {
@@ -160,14 +122,14 @@
 }
 
 @media (max-width: 480px) {
+
   .profile_name img {
-    margin: 0;
-    padding: 0;
+    height: 2.5rem;
+    width: 2.5rem;
   }
 
   .profile_name span {
-    font-size: 16px;
-    margin-left: 10px;
+    font-size: 1rem;
   }
 
   .navbar_items .nav-link {
@@ -191,12 +153,9 @@
   .navbar-nav .dropdown-menu {
     width: 70px !important;
   }
-}
 
-@media (max-width: 480px) {
-  .dropdown-item {
-    font-size: 1rem;
-    padding: 0;
-    margin-left: 0;
+  .navbar-toggler {
+    margin-right: 0.2rem !important;
+    font-size: 0.8rem !important;
   }
 }

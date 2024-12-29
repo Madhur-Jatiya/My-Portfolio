@@ -5,7 +5,7 @@ import { Container } from "react-bootstrap";
 const Home = () => {
   return (
     <div className="home_container">
-      <Container>
+      {/* <Container>
         <div className="home_box">
           <h1>Hey, I'm Madhur Jatiya</h1>
           <p>
@@ -17,7 +17,7 @@ const Home = () => {
         <div className="home_button">
           <button>project</button>
         </div>
-      </Container>
+      </Container> */}
     </div>
   );
 };
