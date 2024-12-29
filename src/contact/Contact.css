@@ -1,0 +1,26 @@
+.contact_container {
+  height: auto;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(232, 233, 235);
+  padding: 1rem;
+}
+
+.contact_heading h1 {
+  color: var(--title_text);
+  font-size: 2rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.contact_heading p {
+  color: var(--title_description_text);
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 1rem 5vw;
+}
