@@ -1,0 +1,52 @@
+.about_container {
+  min-height: 80vh;
+  height: auto;
+  padding: 5rem 2rem;
+  background-color: rgb(232, 233, 235);
+}
+
+.about {
+  margin: 2rem 5rem;
+}
+
+.about_me_title {
+  font-weight: bolder;
+}
+
+.img_div {
+  display: flex;
+  justify-content: right;
+}
+
+.my_img {
+  margin-right: 1rem;
+  height: 70vh;
+  display: block;
+  border-radius: 50px;
+}
+
+.my_skills_title {
+  font-weight: bolder;
+  margin-top: 3rem;
+}
+
+.skill_sub_title {
+  font-weight: 600;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.skills_list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skill_name {
+  color: var(--skill_text);
+  font-weight: 500;
+  margin-right: 1rem;
+  background-color: rgba(153, 153, 153, 0.2);
+  outline: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
